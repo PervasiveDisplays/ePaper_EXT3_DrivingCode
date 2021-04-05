@@ -176,9 +176,7 @@ void setup() {
 	while( digitalRead( BUSY_PIN ) != HIGH );
 
 	sendIndexData( 0xe5, &register_data[2], 1 );	//Input Temperature: 25C
-	uint8_t data6[] = { 0x02 };         
-	sendIndexData( 0xe0, &register_data[3], 1 );	//Active Temperature  
-	uint8_t data5[] = { 0xcf, 0x8d };         
+	sendIndexData( 0xe0, &register_data[3], 1 );	//Active Temperature
 	sendIndexData( 0x00, &register_data[4], 2 );	//PSR
 
 	// Send 1st image data for black and white colors
