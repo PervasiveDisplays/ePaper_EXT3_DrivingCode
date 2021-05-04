@@ -3,7 +3,7 @@
  *  The driving code will refresh for black/white colors image first, delay 3 seconds, then refresh for black/white/red colors image.
  *	If you are using EPD with Aurora imaging film, you could comment out the 2nd image data.
  *  Note that the sample source code here will run the standard global update only. If you need further support for fast update or partial update, please contact below for technical support.
- *	The sample source code for EPD size larger than 5" will upload later soon.
+ *	The sample source code for EPD sizes for 9.7" and 12" will upload later soon.
  
 #  Technical Support
  *  For more information, please visit [Pervasive Displays, inc. (龍亭新技股份有限公司)](https://www.pervasivedisplays.com/)
